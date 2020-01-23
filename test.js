@@ -25,3 +25,9 @@ it('assertion success', async () => {
     const result = await requestMultipleUrls(urls);
     assert.deepEqual(result, json);
 });
+
+
+it('assertion fail', async () => {
+    const result = await requestMultipleUrls(urls);
+    assert.notEqual(result, json);
+});
