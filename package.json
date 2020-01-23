@@ -1,6 +1,6 @@
 {
   "name": "@deborahkwh/request-multiple-urls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetch an array of URLs which contain JSON data",
   "main": "index.js",
   "scripts": {
