@@ -22,7 +22,7 @@ const urls = [
 
 
 requestMultipleUrls(urls).then(urlContent => {
-    //print each item in array
+    //print json results
     console.log(urlContent);
 });
 ```
