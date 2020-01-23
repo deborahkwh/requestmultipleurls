@@ -1,0 +1,25 @@
+{
+  "name": "@deborahkwh/request-multiple-urls",
+  "version": "1.0.0",
+  "description": "Fetch an array of URLs which contain JSON data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deborahkwh/requestmultipleurls.git"
+  },
+  "author": "Deborah Khoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deborahkwh/requestmultipleurls/issues"
+  },
+  "homepage": "https://github.com/deborahkwh/requestmultipleurls#readme",
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
